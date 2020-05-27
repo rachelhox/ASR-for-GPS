@@ -1,0 +1,5 @@
+$digit = ONE | TWO | THREE | FOUR | FIVE |
+	SIX | SEVEN | EIGHT | NINE | OH | ZERO;
+$street = EMBARCADERO | INTERNATIONAL | FIRST | MAIN | WASHINGTON;
+$place = SCHOOL | WORK | HELL;
+( SENT-START ( <$digit> $street [STREET] | GO ( HOME | TO $place) ) SENT-END )
